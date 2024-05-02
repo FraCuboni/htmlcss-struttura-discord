@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     text-decoration: none;
     font-size: 20px;
 }
@@ -13,21 +12,31 @@
     display: flex;
     margin: 10px auto;
 }
-
+ .containerhead>div{
+    display: flex;
+    align-items: center;
+ }
 .logo{
+    justify-content: flex-start;
     background-color: red;
     width: 25%;
-    vertical-align: middle;
+    padding: 10px;
 }
 
 .linkbox{
     background-color: green;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .login{
     background-color: pink;
     width: 25%;
+    justify-content: flex-end;
+    padding: 10px;
 }
 
 .backbox{
