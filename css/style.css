@@ -4,9 +4,10 @@
     text-decoration: none;
     font-size: 20px;
 }
-
+body{
+    background-color: #add8e6;
+}
 /* HEADER */
-
 .containerhead{
     width: 70%;
     height: 50px;
@@ -17,16 +18,16 @@
  .containerhead>div{
     display: flex;
     align-items: center;
+    border: 2px dashed black;
+    background-color: #daa520;
  }
 .logo{
     justify-content: flex-start;
-    background-color: red;
     width: 25%;
     padding: 10px;
 }
 
 .linkbox{
-    background-color: green;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -35,7 +36,6 @@
 }
 
 .login{
-    background-color: pink;
     width: 25%;
     justify-content: flex-end;
     padding: 10px;
@@ -53,8 +53,9 @@
 .midbox1{
     width: 50%;
     height: 300px;
-    background-color: lightskyblue;
+    background-color: #ee82ee;
     margin: 30px;
+    border: 2px dashed black;
 }
 
 .midbox2{
@@ -68,19 +69,22 @@
     width: 70%;
     height: 800px;
     margin: 30px;
-    background-color: green;
+    background-color: #228b22;
+    border: 2px dashed black;
 }   
 
 .smallbox1{
-    background-color: yellow;
+    background-color: #1e90ff;
     width: 60%;
     height: 100%;
+    border: 2px dashed black;
 }
 
 .smallbox2{
-    background-color: blue;
+    background-color: #ffc0cb;
     width: 40%;
     height: 100%;
+    border: 2px dashed black;
 }
 
 .reverse{
@@ -91,10 +95,10 @@
     background-color: white;
 }
 .bgrey{
-    background-color: lightgrey;
+    background-color: #d3d3d3;
 }
 .bblue{
-    background-color: blue;
+    background-color: #00008b;
 }
 
 /* FOOTER */
@@ -107,9 +111,10 @@
     background-color: red;
 }
 .smallbox3{
-    background-color: purple;
+    background-color: #f08080;
     width: 30%;
     height: 100%;
+    border: 2px dashed black;
 }
 .smallbox4{
     width: 70%;
@@ -117,12 +122,25 @@
     display: flex;
 }
 .smallerbox{
-    background-color: aliceblue;
+    background-color: #20b2aa;
     width: calc(100% / 4);
-    border: 1px solid black;
+    border: 2px dashed white;
 }
 
-
 .bdarkgrey{
-    background-color: darkgrey;
+    background-color: #23272a;
+}
+.midbox5{
+    width: 70%;
+    height: 100px;
+    margin: 5px 0 15px;
+    display: flex;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.midbox5>button{
+    height: 2em;
+    border: 2px dashed black;
 }
