@@ -5,73 +5,75 @@
     text-decoration: none;
     font-size: 20px;
 }
-.flxc{
-    display: flex;
-}
-header{
-    background-color: white;
-    padding: 5px 0px;
-}
+
 .containerhead{
     width: 70%;
     height: 50px;
-    background-color: lime;
-    margin: auto;
-    align-items: stretch;
+    margin: 30px;
+    display: flex;
+    margin: 10px auto;
 }
+
 .logo{
     background-color: red;
     width: 25%;
     vertical-align: middle;
 }
+
 .linkbox{
     background-color: green;
     width: 50%;
 }
+
 .login{
     background-color: pink;
     width: 25%;
 }
+
 .backbox{
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.midbox1 .midbox2 .midbox3{
-    margin: 40px;
-}
+
 .midbox1{
     width: 50%;
     height: 300px;
     background-color: lightskyblue;
     margin: 30px;
 }
+
 .midbox2{
     width: 70%;
     height: 400px;
     margin: 30px;
     display: flex;
 }
+
 .midbox3{
     width: 70%;
     height: 800px;
     margin: 30px;
     background-color: green;
 }   
+
 .smallbox1{
     background-color: yellow;
     width: 60%;
     height: 100%;
 }
+
 .smallbox2{
     background-color: blue;
     width: 40%;
     height: 100%;
 }
+
 .reverse{
     flex-direction: row-reverse;
 }
+
 .bwhite{
     background-color: white;
 }
