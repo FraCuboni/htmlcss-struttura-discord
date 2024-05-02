@@ -9,7 +9,7 @@
     display: flex;
 }
 header{
-    background-color: grey;
+    background-color: white;
     padding: 5px 0px;
 }
 .containerhead{
@@ -33,22 +33,32 @@ header{
     width: 25%;
 }
 .backbox{
-    height: 500px;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.midbox1 .midbox2 .midbox3{
+    margin: 40px;
+}
 .midbox1{
-    background-color: lightskyblue;
     width: 50%;
-    height: 80%;
+    height: 300px;
+    background-color: lightskyblue;
+    margin: 30px;
 }
 .midbox2{
-    background-color: pink;
     width: 70%;
-    height: 80%;
+    height: 400px;
+    margin: 30px;
     display: flex;
 }
+.midbox3{
+    width: 70%;
+    height: 800px;
+    margin: 30px;
+    background-color: green;
+}   
 .smallbox1{
     background-color: yellow;
     width: 60%;
