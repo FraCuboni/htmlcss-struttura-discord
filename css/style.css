@@ -5,6 +5,8 @@
     font-size: 20px;
 }
 
+/* HEADER */
+
 .containerhead{
     width: 70%;
     height: 50px;
@@ -38,6 +40,8 @@
     justify-content: flex-end;
     padding: 10px;
 }
+
+/* MAIN */
 
 .backbox{
 
@@ -91,4 +95,20 @@
 }
 .bblue{
     background-color: blue;
+}
+
+/* FOOTER */
+
+.midbox4{
+    width: 70%;
+    height: 500px;
+    margin: 5px 0 15px;
+    display: flex;
+    background-color: red;
+}
+
+
+
+.bdarkgrey{
+    background-color: darkgrey;
 }
