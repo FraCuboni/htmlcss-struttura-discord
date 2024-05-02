@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+.flxc{
+    display: flex;
+}
+header{
+    background-color: grey;
+    padding: 5px 0px;
+}
+.containerhead{
+    width: 70%;
+    height: 50px;
+    background-color: lime;
+    margin: auto;
+    align-items: stretch;
+}
+.logo{
+    background-color: red;
+    width: 25%;
+    vertical-align: middle;
+}
+.linkbox{
+    background-color: green;
+    width: 50%;
+}
+.login{
+    background-color: pink;
+    width: 25%;
+}
+
