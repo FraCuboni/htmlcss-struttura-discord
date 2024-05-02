@@ -32,4 +32,42 @@ header{
     background-color: pink;
     width: 25%;
 }
-
+.backbox{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midbox1{
+    background-color: lightskyblue;
+    width: 50%;
+    height: 80%;
+}
+.midbox2{
+    background-color: pink;
+    width: 70%;
+    height: 80%;
+    display: flex;
+}
+.smallbox1{
+    background-color: yellow;
+    width: 60%;
+    height: 100%;
+}
+.smallbox2{
+    background-color: blue;
+    width: 40%;
+    height: 100%;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.bwhite{
+    background-color: white;
+}
+.bgrey{
+    background-color: lightgrey;
+}
+.bblue{
+    background-color: blue;
+}
