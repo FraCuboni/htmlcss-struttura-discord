@@ -106,7 +106,21 @@
     display: flex;
     background-color: red;
 }
-
+.smallbox3{
+    background-color: purple;
+    width: 30%;
+    height: 100%;
+}
+.smallbox4{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+.smallerbox{
+    background-color: aliceblue;
+    width: calc(100% / 4);
+    border: 1px solid black;
+}
 
 
 .bdarkgrey{
